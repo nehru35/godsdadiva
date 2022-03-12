@@ -1,0 +1,127 @@
+
+
+.seccao-texto {
+    width: 100%;
+    text-align: center;
+    margin: 30px auto 30px;
+    padding: 32px;
+}
+
+.seccao-texto h1 {
+    margin: 0 auto;
+    font-weight: 700;
+    color: #1e56a0;
+    font-size: 250%;
+}
+
+.seccao-fotos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+figure {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+figure img {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 500px;
+}
+
+figcaption {
+    font-weight: bold;
+    margin: 5px auto;
+    font-size: 120%;
+    font-family: "Lora", sans-serif;
+    color: #181b2c;
+}
+
+figure p {
+    margin: 5px auto 10px;
+}
+
+@media (min-width: 600px) and (max-width: 740px) {
+    .seccao-texto h1 {
+        font-size: 300%;
+    }
+
+    .seccao-fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    figure {
+        width: 50%;
+    }
+
+    figure img {
+        object-fit: cover;
+        height: 300px;
+    }
+}
+
+@media (min-width: 741px) and (max-width: 900px) {
+    .seccao-texto h1 {
+        font-size: 300%;
+    }
+
+    .seccao-fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    figure {
+        width: 50%;
+    }
+
+    figure img {
+        object-fit: cover;
+        height: 350px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1035px) {
+    .seccao-texto h1 {
+        font-size: 300%;
+    }
+
+    .seccao-fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    figure {
+        width: 50%;
+    }
+
+    figure img {
+        object-fit: cover;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1036px) {
+    .seccao-texto h1 {
+        font-size: 300%;
+    }
+
+    .seccao-fotos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    figure {
+        width: 50%;
+    }
+
+    figure img {
+        object-fit: cover;
+        height: 450px;
+    }
+}

@@ -1,0 +1,80 @@
+main {
+    color: #fff;
+    background-image: url("../img/home-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lora", sans-serif;
+}
+
+main .home-textos {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px auto;
+}
+
+.home-title {
+    font-weight: 700;
+    margin: 5px;
+    font-size: 250%;
+}
+
+.home-subtitulo {
+    font-size: 150%;
+    margin: 0 auto;
+}
+
+.linha {
+    width: 40%;
+    background-color: #fff;
+    height: .3em;
+    border-radius: 5px;
+    margin: 20px auto 0;
+}
+
+.botao {
+    background-color: #1e56a0;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.botao:hover,
+.botao:focus, 
+.botao:active {
+    background-color: #163172;
+}
+
+@media (min-width: 650px) and (max-width: 950px) {
+    .home-title {
+        font-size: 300%;
+    }
+    
+    .home-subtitulo {
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 950px) {
+    .home-title {
+        font-size: 400%;
+    }
+    
+    .home-subtitulo {
+        font-size: 300%;
+    }
+}
