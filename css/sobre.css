@@ -1,0 +1,32 @@
+main {
+    width: 80%;
+    margin: 30px auto 10px;
+    padding: 20px 0;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: 700;
+    color: #1e56a0;
+    font-size: 250%;
+}
+
+.sobre {
+    margin: 30px 0 0;
+}
+
+.sobre p {
+    color: #181b2c;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media (min-width: 600px) {
+    .titulo {
+        font-size: 300%;
+        text-align: left;
+    }
+}
